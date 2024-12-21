@@ -1,0 +1,1 @@
+make A=examples/httpclient PLATFORM=aarch64-qemu-virt LOG=debug SMP=2 NET=y FEATURES=driver-ixgbe NET_DEV=user run
