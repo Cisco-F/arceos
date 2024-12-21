@@ -34,12 +34,12 @@ default = ["bus-pci"]
 [dependencies]
 log = "=0.4.21"
 cfg-if = "1.0"
-axdriver_base = { git = "https://github.com/Cisco-F/axdriver_crates_cisco.git", rev = "c8520f7"}
-axdriver_block = { git = "https://github.com/Cisco-F/axdriver_crates_cisco.git", rev = "c8520f7", optional = true }
-axdriver_net = { git = "https://github.com/Cisco-F/axdriver_crates_cisco.git", rev = "c8520f7", optional = true }
-axdriver_display = { git = "https://github.com/Cisco-F/axdriver_crates_cisco.git", rev = "c8520f7", optional = true }
-axdriver_pci = { git = "https://github.com/Cisco-F/axdriver_crates_cisco.git", rev = "c8520f7", optional = true }
-axdriver_virtio = { git = "https://github.com/Cisco-F/axdriver_crates_cisco.git", rev = "c8520f7", optional = true }
+axdriver_base = { git = "https://github.com/Cisco-F/axdriver_crates_cisco.git", rev = "bccc3f3"}
+axdriver_block = { git = "https://github.com/Cisco-F/axdriver_crates_cisco.git", rev = "bccc3f3", optional = true }
+axdriver_net = { git = "https://github.com/Cisco-F/axdriver_crates_cisco.git", rev = "bccc3f3", optional = true }
+axdriver_display = { git = "https://github.com/Cisco-F/axdriver_crates_cisco.git", rev = "bccc3f3", optional = true }
+axdriver_pci = { git = "https://github.com/Cisco-F/axdriver_crates_cisco.git", rev = "bccc3f3", optional = true }
+axdriver_virtio = { git = "https://github.com/Cisco-F/axdriver_crates_cisco.git", rev = "bccc3f3", optional = true }
 axalloc = { workspace = true, optional = true }
 axhal = { workspace = true, optional = true }
 axconfig = { workspace = true, optional = true }
